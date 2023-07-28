@@ -1,14 +1,137 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <header class="contact ground">
+        <div class="top">
+          <div class="logo">
+            <a href="/">
+              <img
+                src="./images/logo_englishgo_small.png"
+                alt="EnglishGo Logo"
+                width="100"
+              />
+            </a>
+          </div>
+          <div>
+            <h1 class="name">ENGLISHGO</h1>
+            <p class="speech">Fast, interesting and cool!</p>
+          </div>
+  
+          <ul class="list contacts">
+            <li class="contact-item">
+              <a class="link mail" href="mailto:pereyaslova1985@mail.ru"
+                >pereyaslova1985@mail.ru</a
+              >
+            </li>
+            <li class="contact-item">
+              <a class="link phone" href="tel:+79170693236">+7 917 069 32 36</a>
+            </li>
+          </ul>
+        </div>
+              <!-- Section 1 -->
+      <section class="section one">
+        <h2 class="heading">
+          Хочешь заговорить на английском, <br> но не знаешь как?
+        </h2>
+        <p class="invitation">Приходи на 3-дневный бесплатный вебинар</p>
+  
+        <div class="block free">
+          <p class="free">
+            Совершенно бесплатно <br> ты узнаешь: <br>
+            <ul class="list_need">
+              <li>фишки полиглотов</li>
+              <li>научишься читать</li>
+              <li>разберешься во временах</li>
+              <li>получишь дополнительные бонусы </li>
+            </ul> 
+          </p>
+        </div>
+        <a href="https://t.me/EnglishGo_Course">
+        <button class="btn-register">Записаться на вебинар</button>
+        </a>
+      </section>
+      </header>
+  
+      
+    <!-- Section 2 -->
+    <section class="section second">
+      <h2 class="heading">О курсе</h2>
+      <div class="second_text">
+        <p class="gap">
+          Уникальный интенсив-курс, который предоставляет возможность всего за 2
+          месяца, начиная с абсолютного нуля, легко и с уверенностью овладеть английским на достаточном уровне.
+        </p>
+        <p class="gap">
+          В этом интенсиве ты сфокусируешься на самых важных аспектах грамматики. Мы обеспечим простоту понимания сложных концепций и их успешное применение в реальных ситуациях. Ты будешь удивлен, как легко и логично может быть ее изучение, когда она преподносится с нашим подходом.
+        </p>
+        <p class="gap">
+          С нами ты непринужденно расширишь свой словарный запас, обогатив его необходимой лексикой и топовыми фразами.
+        </p>
+        <p class="gap">
+          А ведь это еще не все... . <br> Будет много полезной информации, лайфхаков и аудио-визуального контента.
+        </p>
+        <a href="https://t.me/EnglishGo_Course">
+        <button class="btn-willing">Хочу на курс</button>
+        </a>
+
+      </div>
+      
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section">
+      <h2 class="heading">Что входит в курс?</h2>
+      <ul class="list_need_second">
+        <li class="arrow">20 занятий с преподавателем</li>
+        <li class="arrow">20 оригинальных и комплексных заданий на отработку</li>
+        <li class="arrow">Лексика в QUIZLET</li>
+        <li class="arrow">Чат с поддержкой преподавателя</li>
+        <li class="arrow">Доступ к закрытому телеграмм каналу</li>
+        <li class="arrow">Видео-уроки, презентации и
+          домашние задания</li>
+          <li class="underlined">
+            Все материалы останутся с вами навсегда!
+          </li>
+      </ul>
+      <a href="https://t.me/EnglishGo_Course">
+      <button class="btn-willing">Записаться на курс</button>
+      </a>
+
+
+    </section>
+
+    <!-- Section 4 -->
+    <section class="section">
+      <h2 class="heading">Цена курса?</h2>
+      <p class="text_price">
+      Участники вебинара могут получить курс со скидкой 50%
+        <br>
+        <p class="text_price_two">Полная цена: <span class="price">12 000 рублей</span></p>
+      </p>
+  <a href="https://t.me/EnglishGo_Course"><button class="btn-willing">Хочу на курс</button></a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Страница обратной связи (WhatsApp/Viber/Telegram +7 917 069 32 36)</p>
+      <p>НП Переяслова Елена Владимировна</p>
+      <p>ИНН 132203994177</p>
+      <a href="#">Договор-оферта</a>
+      <a href="#">Соглашение об обработке персональных данных</a>
+    </footer>
   </body>
 </html>

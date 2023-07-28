@@ -1,0 +1,248 @@
+:root {
+  --white: aliceblue;
+  --violet: #500c7d;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  /* max-width: 100%; */
+  height: auto;
+  /* width: 100%; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.329);
+  border-bottom: 10px solid #e7e9fc;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.contact {
+  background-color: var(--white);
+}
+
+.ground {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 192, 203, 0.7),
+      rgba(93, 20, 163, 0.7)
+    ),
+    url(../images/bc.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.name {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-family: "Abril Fatface", cursive;
+  margin-right: 500px;
+  color: var(--violet);
+}
+
+.speech {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.link.mail:before {
+  content: "\2709";
+  margin-right: 20px;
+}
+
+.link.phone:before {
+  content: "\260E";
+  margin-right: 20px;
+}
+/* _________________________________________ */
+.one {
+  color: var(--white);
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: "Raleway", sans-serif;
+}
+
+.invitation {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--violet);
+  text-align: center;
+}
+
+.free {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 2;
+  text-align: center;
+}
+
+.list_need {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 3;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 20px;
+  margin-left: 400px;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-register,
+.btn-willing {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: var(--violet);
+  font-weight: 700;
+  margin-left: 800px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 350px;
+  height: 70px;
+}
+
+.second {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.329);
+  border-bottom: 10px solid #e7e9fc;
+}
+
+.second_text {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  text-align: justify;
+  padding: 0 70px 0 70px;
+  font-family: "r";
+}
+
+.gap {
+  margin-bottom: 30px;
+}
+
+.gap:before {
+  content: "\2730";
+  margin-right: 5px;
+}
+
+.list_need_second {
+  font-size: 24px;
+  line-height: 3;
+  letter-spacing: 0.02em;
+  margin-left: 200px;
+  font-family: "Raleway", sans-serif;
+  list-style: none;
+}
+
+.underlined {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.arrow:before {
+  content: "\27AA";
+  margin-right: 5px;
+}
+
+.btn-willing {
+  color: black;
+}
+
+.text_price {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.text_price_two {
+  font-size: 24px;
+  text-decoration: line-through;
+}
