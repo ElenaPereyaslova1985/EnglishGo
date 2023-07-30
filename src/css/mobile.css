@@ -299,3 +299,83 @@
   gap: 50px;
   justify-content: center;
 }
+
+/* ?MODAL */
+
+.modal {
+  height: 100%;
+  min-width: 320px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 40px 40px;
+  overflow-y: scroll;
+}
+
+.logo_modal {
+  width: 50px;
+  background-color: #fff;
+}
+.name_modal {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Abril Fatface', cursive;
+  /* margin-right: 0; */
+  color: var(--violet);
+}
+.speech_modal {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.my_modal {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contacts_modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-item_modal {
+}
+.link {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.link.mail_modal:before {
+  content: '\2709';
+  margin-right: 8px;
+}
+
+.link.phone_modal:before {
+  content: '\260E';
+  margin-right: 8px;
+}
+
+.mail_modal {
+}
+.phone_modal {
+}
+.soc-box_modal {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-around;
+  margin-left: 18px;
+}
+.soc-items_modal {
+}
+.soc-link_modal {
+}
