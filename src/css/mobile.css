@@ -37,7 +37,7 @@
 }
 
 .name {
-  font-size: 36px;
+  font-size: 24px;
   margin-bottom: 10px;
   font-family: 'Abril Fatface', cursive;
   margin-right: 0;
@@ -102,11 +102,12 @@
 }
 .btn-register,
 .btn-willing {
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.02em;
   color: var(--violet);
   font-weight: 700;
-  margin-left: 150px;
+  display: block;
+  margin: 0 auto;
   padding: 10px;
   background-color: var(--white);
   border-radius: 40px;
